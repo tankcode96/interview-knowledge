@@ -175,8 +175,30 @@ promise主要是用来解决两个问题：
   - 第一个好处是效率高，比如，不用for循环为子元素添加事件了
   - 第二个好处是，js新生成的子元素也不用新为其添加事件了，程序逻辑上比较方便
 
-
 >### **冒泡和捕获**
 冒泡和捕获分别是IE和网景提出的两种事件流的概念。
   - 事件冒泡，即事件开始时由最具体的元素接收，然后逐级向上传播到较为不具体的节点
   - 事件捕获，即不太具体的DOM节点应该更早接收到事件，而最具体的节点应该最后接收到事件
+
+
+
+HTML&CSS：
+
+flex布局、垂直居中、清除浮动、BFC、三栏布局、两栏布局、动画、盒模型、H5新特性
+
+JavaScript：
+
+继承、原型链、this指向、设计模式、call, apply, bind, new实现、防抖节流、let, var, const 区别、event、loop、promise使用及实现、promise并行执行和顺序执行、闭包、垃圾回收和内存泄漏、数组方法、数组乱序, 数组扁平化、事件委托、事件监听、事件模型、typescript
+
+Vue:
+
+vue数据双向绑定原理、vue computed原理、vue编译器结构图、生命周期、vue组件通信、mmvm模式、mvc模式理解、vue dom diff、vuex、vue-router
+
+react：
+
+dom-diff、列表key属性、jsx原理(createElement)、react-router原理、redux原理、生命周期、react setState、react组件通信、性能优化
+
+网络：
+
+HTTP1, HTTP2, HTTPS、浏览从输入网址到回车发生了什么、前端跨域、浏览器缓存、cookie, session, token, localstorage, sessionstorage、状态码、TCP连接(三次握手, 四次挥手)
+
